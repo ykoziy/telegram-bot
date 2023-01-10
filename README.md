@@ -12,4 +12,4 @@ Playing around with telegram and python, maybe something useful will be created.
 - Build using command: pip install -r requirements.txt
 - Run using command: python -m spacy link en_core_web_sm en && gunicorn app:app
 - Set the telegram bot web hook (in any browser): {appEndpoint}/setWebhook
-  - you will get a confirmation: {"ok":true,"result":true,"description":"Webhook was set"}
+  - you will get a confirmation: webhook setup ok
