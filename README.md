@@ -11,5 +11,5 @@ Playing around with telegram and python, maybe something useful will be created.
   - OWN_API_KEY: openWEather API key
 - Build using command: pip install -r requirements.txt
 - Run using command: python -m spacy link en_core_web_sm en && gunicorn app:app
-- Set the telegram bot web hook (in any browser): https://api.telegram.org/bot{my_bot_token}/setWebhook?url={url_to_send_updates_to}
+- Set the telegram bot web hook (in any browser): {appEndpoint}/setWebhook
   - you will get a confirmation: {"ok":true,"result":true,"description":"Webhook was set"}
